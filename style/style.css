@@ -1,0 +1,525 @@
+body{
+    margin: 0;
+    font-family: 'Rubik' , sans-serif;
+}
+
+
+
+header{
+    margin: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo{
+    display: flex;
+    width: 1440px;
+    padding: 25px 1119px 15px 135px;
+    align-items: center;
+}
+
+.menu{
+    margin-left: 20px;
+    color: #716B6B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu a{
+    width: 80px;
+    height: 90px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #716B6B;
+    justify-content: space-between;
+    display: inline-block;
+    transition: all 3s ease-in-out;
+
+}
+
+
+.menu a:hover{
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 18px;
+    transition: all 3s ease-in-out;
+}
+
+main{
+    margin: 0;
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+}
+
+.menu-midl{
+    margin-top: 10px;
+    background-color: #FEC524;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.text-midl{
+    padding: 70px;
+
+}
+
+.text-midl h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 45px;
+}
+
+.text-midl p{
+    margin: 0;
+    font-size: 25px;
+}
+
+.text_menu{
+    width: 580px;
+    height: 72px;
+    border-radius: 8%;
+    font-size: 20px;
+    margin-left: 25px;
+    transition: 5s;
+    color: black;
+}
+
+.text_menu:hover{
+    transition: 5s;
+    background-color: red;
+    cursor: pointer;
+    text-decoration:  black none;
+
+}
+
+.batter_menu{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -60px;
+}
+
+
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    background-color: white;
+    border-radius: 12px;
+
+}
+
+
+
+.block1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 16vw;
+    height: 80px;
+    border-radius: 10px;
+    transition: 1.5s;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+
+
+
+.block1 a:hover{
+    transition: 1.5s;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.block_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    background-color: white;
+    margin-top: 50px;
+    font-family: 'Rubik' , sans-serif;
+}
+
+.block_text1{
+    display:table-column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 55vh;
+}
+
+.block_text1 h3{
+
+    font-size: 45px;
+    color: #0E2F4B;
+    font-family: 'Rubik' , sans-serif;
+
+}
+
+.text_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 50vh;
+    position: relative;
+    top: -25px;
+    text-decoration: none;
+}
+
+
+.text2{
+    color: #0E2F4B;
+    font-size: 18px;
+    text-decoration: none;
+    top: -15px;
+}
+
+.text2 p{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+    top: -15px;
+}
+
+
+.text2 a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+}
+.text2 a:hover{
+    transition: 1.5s;
+    color: palevioletred;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text3 a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+}
+
+.text3 p{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+    top: -15px;
+}
+
+.text3 a:hover{
+
+    transition: 1.5s;
+    color: rebeccapurple;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.text4 p{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+    top: -15px;
+}
+
+.text4 a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+}
+.text4 a:hover{
+
+    transition: 1.5s;
+    color: chartreuse;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.text5 p{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+    top: -15px;
+}
+
+.text5 a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+}
+.text5 a:hover{
+    transition: 1.5s;
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text6 p{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+    top: -15px;
+}
+
+.text6 a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+}
+
+.text6 a:hover{
+    transition: 1.5s;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text7 p{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+    top: -15px;
+}
+
+.text7 a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+}
+
+.text7 a:hover{
+    transition: 1.5s;
+    color: darkslategrey;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.block_blue{
+    width: 100vw;
+    height: 600px;
+    margin-top:  250px;
+    background-color: #042C4B;
+}
+
+
+
+.block_blue h4{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: white;
+    font-size: 46px;
+    padding-top: 150px;
+}
+
+.block_blue p{
+    margin-left: 25px;
+    color: black;
+    font-size: 25px;
+    flex-shrink: 0;
+}
+
+.block_blue button{
+    margin-left: 35px;
+    color: black;
+    background-color: #FDC13D;
+    width: 250px;
+    height: 50px;
+    font-family: Rubik sans-serif;
+    box-shadow: black;
+    border-radius: 10%;
+}
+
+.block_blue a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    box-shadow: black;
+    transition: 1.5s;
+    border-radius: 10%;
+}
+
+
+.block_blue a:hover{
+    transition: 1.5s;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.service_block{
+    width: 100vw;
+    height: 600px;
+
+}
+
+.main_service_block{
+    width: 75vw;
+    height: 140px;
+    margin-left: 130px;
+    margin-top: 70px;
+    background-color: #FDC13D;
+}
+
+.main_service_block h5{
+    margin-left: 25px;
+    color: darkblue;
+    font-size: 20px;
+
+}
+
+.main_service_block p{
+    margin-top: 5px;
+    margin-left: 25px;
+    color: black;
+}
+
+.main_service_block a{
+     margin-left: 25px;
+    color: #0E2F4B;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 1.5s;
+    font-family: Rubik sans-serif;
+}
+
+.main_service_block a:hover{
+    transition: 1.5s;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main_h6{
+    margin-left: 110px;
+    margin-top: 165px;
+    font-size: 50px;
+    color: #0E2F4B;
+    font-family: Rubik sans-serif;
+}
+
+.main_service_block_down{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 50vw;
+}
+
+.main_service_block_down p{
+    color: #0E2F4B;
+    font-family: Rubik sans-serif;
+    font-size: 20px;
+}
+
+.main_service_block_down a{
+
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1.5s;
+
+}
+
+.main_service_block_down a:hover{
+    transition: 1.5s;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer{
+    padding-top: 50px;
+    width: 100vw;
+    height: 70vh;
+    background-color: #0E2F4B;
+}
+
+
+.text_footers h7{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 45px;
+    color: white;
+}
+
+.text_footers p{
+    padding-top: 15px;
+    padding-left: 50px;
+    font-size: 15px;
+    color: black;
+}
+
+.input_footer{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+.text_footer_input{
+    width: 45vw;
+    height: 15vh;
+    background-color: white;
+    border-radius: 8%;
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: Rubik sans-serif;
+}
+
+.input_button{
+    margin-left: 100px;
+    width: 200px;
+    height: 65px;
+    background-color: #FDC13D;
+    border-radius: 10%;
+}
+
+.input_button a{
+    text-decoration: none;
+    color: black;
+    transition: 3.5s;
+}
+
+.input_button:hover{
+    color: chartreuse;
+    transition: 3.5s;
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 10%;
+}
